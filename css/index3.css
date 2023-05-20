@@ -1,0 +1,119 @@
+header {
+    width: 100%;
+    height: 40px;
+    background: #ffc72c;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 1;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+header li {
+    font-size: 0.36rem;
+    font-weight: normal;
+    color: #66543a;
+    line-height: 0.8rem;
+    text-align: center;
+}
+header li img {
+    width: 0.28rem;
+    height: 0.28rem;
+    opacity: 1;
+    margin: 0 1.86rem 0 0.36rem;
+}
+.content {
+    padding: 0.34rem;
+    margin: 0 auto 2rem;
+}
+.top p {
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #846d4c;
+}
+.top_t ul li img {
+    width: 2rem;
+    height: 3rem;
+}
+.top_t ul {
+    display: flex;
+}
+.top_t ul li h5 {
+    line-height: 0.5rem;
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #846d4c;
+}
+.top_t ul li p {
+    display: flex;
+    align-items: center;
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #817d77;
+}
+.top_t ul li p img {
+    width: 0.24rem;
+    height: 0.24rem;
+    opacity: 1;
+}
+.top_t ul li .text {
+    display: flex;
+}
+.top_t ul li .text p {
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #d64537;
+    margin-right: 0.14rem;
+}
+.top_t ul li .text button {
+    width: 2.32rem;
+    height: 0.64rem;
+    background: #ffc72c;
+    border-radius: 2.92rem 2.92rem 2.92rem 2.92rem;
+    opacity: 1;
+    border: 0;
+    font-weight: normal;
+    color: #ffffff;
+}
+.bottom h4 {
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #846d4c;
+    margin: 1.18rem 0 0.22rem;
+}
+.bottom p {
+    width: 7.2rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #666666;
+}
+.bottom:last-child p {
+    width: 6.76rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #666666;
+    line-height: 0.42rem;
+}
+footer h4 {
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #846d4c;
+}
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer ul li a{
+    width: 30%;
+    margin: 0.4rem 0.2rem 0.4rem 0;
+}
+footer ul li img {
+    width: 2rem;
+    height: 2.6rem;
+}
+footer ul li a p {
+    color: #ccc;
+}

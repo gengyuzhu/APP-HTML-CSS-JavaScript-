@@ -1,0 +1,119 @@
+header {
+    width: 100%;
+    height: 0.8rem;
+    background: #ffc72c;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+}
+header p {
+    font-size: 0.36rem;
+    font-weight: normal;
+    color: #66543a;
+    line-height: 0.8rem;
+    text-align: center;
+}
+nav {
+    width: 100%;
+    height: 0.8rem;
+    background: rgba(255, 199, 44, 0.3);
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 1;
+}
+nav p {
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #666666;
+    line-height: 0.8rem;
+    text-align: center;
+}
+nav p span {
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #d64537;
+}
+.content {
+    margin: 0 auto 2rem;
+}
+.content .main .jia {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0.5rem auto;
+}
+.content .main .jia img {
+    width: 1.6rem;
+    height: 2.1rem;
+    border-radius: 0.12rem 0.12rem 0.12rem 0.12rem;
+    opacity: 1;
+}
+.content .main .jia ul {
+    margin: 0 0.16rem 0 0.42rem;
+}
+.content .main .jia ul li {
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #846d4c;
+    line-height: 0.5rem;
+}
+select {
+    width: 1.16rem;
+    height: 0.48rem;
+    background: #ffffff;
+    border-radius: 0.02rem 0.02rem 0.02rem 0.02rem;
+    opacity: 1;
+    border: 0.02rem solid #745e3a;
+}
+.text ul li:first-child {
+    font-size: 0.32rem;
+}
+.text ul li {
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #846d4c;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.46rem;
+    margin: 0.14rem auto;
+    line-height: 0.6rem;
+}
+.text ul li:last-child {
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.text ul li button {
+    width: 4.68rem;
+    height: 0.72rem;
+    background: #ffc72c;
+    border-radius: 0.38rem 0.38rem 0.38rem 0.38rem;
+    opacity: 1;
+    border: 0;
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+footer {
+    width: 100%;
+    height: 1.66rem;
+    background: #ffffff;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 1;
+
+    position: fixed;
+    bottom: 0;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer img {
+    width: 0.6rem;
+    height: 0.6rem;
+}
+footer ul li a p {
+    color: #000;
+}

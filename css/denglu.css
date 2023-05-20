@@ -1,0 +1,152 @@
+header {
+    width: 100%;
+    height: 0.8rem;
+    background: #ffc72c;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+}
+header p {
+    font-size: 0.36rem;
+    font-weight: normal;
+    color: #66543a;
+    line-height: 0.8rem;
+    text-align: center;
+}
+.logo img {
+    width: 2rem;
+    height: 1rem;
+    margin: 0.8rem auto 0.6rem;
+}
+.tab ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab {
+    margin-bottom: 0.4rem;
+}
+.tab ul li:nth-child(1) {
+    width: 3.44rem;
+    height: 0.64rem;
+    background: #ffc72c;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 1;
+    text-align: center;
+    line-height: 0.64rem;
+    position: relative;
+}
+.tab ul li:nth-child(1)::after {
+    content: "";
+    width: 3.44rem;
+    position: absolute;
+    height: 0.04rem;
+    background: #d64537;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+    left: 0;
+    bottom: 0;
+}
+
+.tab ul li:nth-child(2) {
+    width: 3.44rem;
+    height: 0.64rem;
+    background: #f5ead9;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 1;
+    text-align: center;
+    line-height: 0.64rem;
+}
+h3 {
+    font-size: 0.28rem;
+    font-family: PingFangSC-Regular-, PingFangSC-Regular;
+    font-weight: normal;
+    color: #846d4c;
+    line-height: 0.2rem;
+    text-align: center;
+}
+input {
+    width: 6.86rem;
+    height: 0.6rem;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 1;
+    border: 0.02rem solid #707070;
+    margin: 0 auto;
+    border: 0;
+}
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.86rem;
+    height: 0.6rem;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 1;
+    border: 0.02rem solid #707070;
+    padding: 0.2rem;
+    margin: 0.34rem auto;
+}
+.inp input {
+    border: 0;
+}
+.inp input:nth-child(2) {
+    width: 0.3rem;
+    height: 0.3rem;
+    background: #ffc72c;
+    border-radius: 0.04rem 0.04rem 0.04rem 0.04rem;
+    opacity: 1;
+}
+.wen ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.32rem;
+}
+.wen ul li {
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #846d4c;
+}
+.wen ul li input {
+    width: 0.3rem;
+    height: 0.3rem;
+    background: #ffc72c;
+    border-radius: 0.04rem 0.04rem 0.04rem 0.04rem;
+    opacity: 1;
+}
+.but a {
+    display: block;
+    width: 6.9rem;
+    height: 0.64rem;
+    background: #ffc72c;
+    border-radius: 3.18rem 3.18rem 3.18rem 3.18rem;
+    opacity: 1;
+    text-align: center;
+    line-height: 0.64rem;
+    margin: 0.52rem auto 0.84rem;
+    position: relative;
+}
+.but::after {
+    position: absolute;
+    width: 6.86rem;
+    height: 0.04rem;
+    background: #707070;
+    opacity: 1;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.38rem;
+}
+.but button {
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #5e4829;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+footer {
+    font-size: 0.28rem;
+    font-family: PingFang SC-, PingFang SC;
+    font-weight: normal;
+    color: #846d4c;
+    line-height: 1rem;
+    text-align: center;
+}
